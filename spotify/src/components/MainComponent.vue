@@ -54,17 +54,18 @@ export default {
     background-color: #1E2D3B;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     text-align: center;
-    padding: 80px 0;
- 
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: calc(100vh - 70px);
+    overflow: auto;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    
     
 
   .container {
       width: 1200px;
-      
+      margin: auto;
 
       
 
